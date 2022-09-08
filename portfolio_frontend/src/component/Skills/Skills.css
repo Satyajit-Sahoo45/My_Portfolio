@@ -1,0 +1,47 @@
+/* .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.skill_btn {
+    padding: 50px !important;
+}
+
+.skill_grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 35px;
+}
+
+.skill_btn .fa {
+    font-size: 37px;
+}
+
+.Skills .box:hover i {
+    color: white;
+    opacity: 1;
+}
+
+@media (max-width: 1024px) {
+    .skill_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .skill_grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 35px;
+        width: 100%;
+    }
+
+    .skill_box{
+        margin: auto;
+    }
+
+    .skill_btn {
+        padding: 12px !important;
+    }
+}

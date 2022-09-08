@@ -1,0 +1,36 @@
+.features .box {
+  padding: 50px;
+}
+.features .box h2 {
+  margin: 20px 0 20px 0;
+  color: white;
+}
+.features .box p {
+  word-spacing: 2px;
+  transition: 0.5s;
+  color: rgb(144, 133, 133);
+}
+.features .box i {
+  font-size: 30px;
+  margin-top: 20px;
+  transition: 0.5s;
+  opacity: 0;
+}
+.features .box img{
+  font-size: 90px;
+  color: white;
+}
+.features .box:hover p {
+  color: white;
+}
+.features .box:hover i {
+  color: white;
+  opacity: 1;
+}
+
+@media (max-width: 360px) {
+  .features .box{
+    padding: 13px;
+    font-size: 12px;
+  }
+}
