@@ -1,9 +1,7 @@
 import freebootcampCer from "../pic/img3.png";
 import javaCer from "../pic/javaCer.png";
 import webCer from "../pic/webCer.png";
-import IpAwrCer from "../pic/IpAwrCer.png";
 import webTechExpo from "../pic/webTechExpo.png";
-import nqtProg from "../pic/nqtProg.png";
 import internship from "../pic/internship.png"
 
 export const SliderData = [
@@ -24,16 +22,8 @@ export const SliderData = [
     desc: "Lern the skill without mentor is tough. but getting motivate vibes by submiting the task, nothing is tough until you tried."
   },
   {
-    image: IpAwrCer,
-    desc: "sdkjasdoja ajd jasdjo jajdij aoiwda a asjd a sfasf aafd asfdf asdfsfrgrtth rtyhrth"
-  },
-  {
     image: webTechExpo,
     desc: "Participate in Web Tech Expo - 2021, A two days online national symposium organised by Gandhi Engineering College get to know more thind like thinking critically during code and many more."
-  },
-  {
-    image: nqtProg,
-    desc: "Participate in NQT, got 85% score in programming."
   }
 ];
 

@@ -2,11 +2,8 @@ import React from "react"
 import "./Features.css"
 import data from "./Features-Api"
 import Card from "./Card"
-import Aos from "aos";
 
 const Features = () => {
-
-  Aos.init();
 
   return (
     <>

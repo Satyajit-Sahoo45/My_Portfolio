@@ -1,66 +1,28 @@
 import React, { useState } from "react"
-// import axios from "../Axios/axios";
 
 const Card = (props) => {
-  // const [modal, setModal] = useState(false)
-  // const toggleModal = () => {
-  //   setModal(!modal)
-  // }
-  // if (modal) {
-  //   document.body.classList.add("active-modal")
-  // } else {
-  //   document.body.classList.remove("active-modal")
-  // }
 
   return (
     <>
       <div className='box btn_shadow '>
         <div className='img'>
-          {/* <img src={props.image} alt='' onClick={toggleModal} /> */}
           <img src={props.image} alt='' />
         </div>
         <div className='category d_flex'>
-          {/* <span onClick={toggleModal}>{props.category}</span> */}
           <span>{props.category}</span>
         </div>
-        <div className='button d_flex mtop center'>
-            {/* <button className='btn_shadow'>
-              <i class='far fa-thumbs-up'></i>
-            </button> */}
+        {/* <div className='button d_flex mtop center'>
           <button className='btn_shadow'>
-            <a href={props.link} target="_blanck" >VIEW PROJECT  <i class='fas fa-chevron-right'></i></a>
+            <a href={props.link} target="_blanck"> VIEW PROJECT  <i class='fas fa-chevron-right'></i></a>
+          </button>
+        </div> */}
+
+        <div className="center d_flex">
+          <button className='glowing-btn'> <a href={props.link} target="_blanck">
+            <span className='glowing-txt'>V<span className='faulty-letter'>IEW</span> PROJECT <i class='fas fa-chevron-right'></i></span></a>
           </button>
         </div>
       </div>
-
-      {/* Popup box */}
-      {/* {modal && (
-        <div className='modal'>
-          <div onClick={toggleModal} className='overlay'></div>
-          <div className='modal-content d_flex'>
-            <div className='modal-img left'>
-              <img src={props.image} alt='' />
-            </div>
-            <div className='modal-text right'>
-              <span>Featured - Design</span>
-              <h1>{props.title}</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-              <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
-              <div className='button f_flex mtop'>
-                <button className='btn_shadow'>
-                  LIKE THIS <i class='far fa-thumbs-up'></i>
-                </button>
-                <button className='btn_shadow'>
-                  <a href={props.link} target="_blanck" >VIEW PROJECT<i class='fas fa-chevron-right'></i></a>
-                </button>
-              </div>
-              <button className='close-modal btn_shadow' onClick={toggleModal}>
-                <i class='fas fa-times'></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      )} */}
     </>
   )
 }

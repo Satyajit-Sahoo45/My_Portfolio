@@ -38,7 +38,7 @@ const Header = () => {
               <li>
                 <a href='#contact'>contact</a>
               </li>
-              
+
             </ul>
 
             <button className='toggle' onClick={() => setMobile(!Mobile)}>

@@ -30,7 +30,7 @@ const Home = () => {
               <span>
                 <Typewriter
                   options={{
-                    strings: ['a Student', ' and interested in Full-Stack Development', ' also in Competative Programming'],
+                    strings: ['a Student', ' and a Web Developer', ' also interest in Competative Programming'],
                     autoStart: true,
                     loop: true,
                   }}

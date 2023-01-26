@@ -7,14 +7,26 @@
     padding: 50px !important;
 }
 
+.skill_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .skill_grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 35px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 75px;
 }
 
 .skill_btn .fa {
     font-size: 37px;
+}
+
+.skill_box{
+    height: 10rem;
+    width: 10rem;
+    padding: 20px;
 }
 
 .Skills .box:hover i {
@@ -32,7 +44,7 @@
 
     .skill_grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 35px;
         width: 100%;
     }
