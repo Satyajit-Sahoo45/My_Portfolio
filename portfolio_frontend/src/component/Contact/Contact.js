@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import contact1 from "./contact1.png"
 import "./Contact.css"
 import axios from "../Axios/axios";
 
@@ -44,7 +43,7 @@ const Contact = () => {
     <>
       <section className='Contact res_page' id='contact'>
         <div className='container top'>
-          <div className='heading text-center'>
+          <div className='heading'>
             <h1>Contact With Me</h1>
           </div>
 

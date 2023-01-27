@@ -22,29 +22,30 @@ const Achievments = () => {
 
     return (
         <section className="achievment res_page" id="achievements">
+            <div className="container">
+                <div className='heading'>
+                    <h1>My Achievments</h1>
+                </div>
+                <div className='container btn_shadow'>
 
-            <div className='heading text-center'>
-                <h1>My Achievments</h1>
-            </div>
-            <div className='container btn_shadow'>
-
-                <div className='slider p-9 m-6 mtop bottom'>
-                    <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-                    <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
-                    {sliderData.map((slide, index) => {
-                        return (
-                            <>
-                                <div
-                                    className={index === current ? 'slide active' : 'slide'}
-                                    key={index}
-                                >
-                                    {index === current && (
-                                        <img src={slide.image} alt='travel image' className='image' />
+                    <div className='slider p-9 m-6 mtop bottom'>
+                        <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
+                        <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
+                        {sliderData.map((slide, index) => {
+                            return (
+                                <>
+                                    <div
+                                        className={index === current ? 'slide active' : 'slide'}
+                                        key={index}
+                                    >
+                                        {index === current && (
+                                            <img src={slide.image} alt='travel image' className='image' />
                                         )}
-                                </div>                                
-                            </>
-                        );
-                    })}
+                                    </div>
+                                </>
+                            );
+                        })}
+                    </div>
                 </div>
             </div>
         </section>

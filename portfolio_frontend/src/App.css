@@ -9,7 +9,7 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #000000;
+  background-color: #121212;
 }
 .container {
   max-width: 95%;
@@ -49,8 +49,8 @@ button {
   transition: 0.5s;
 }
 .btn_shadow {
-  background: linear-gradient(145deg, #000000, #000000);
-  box-shadow: 4px 4px 8px #ffffff78, -4px -4px 8px #150b0b;
+  background: linear-gradient(145deg, #121212, #121212);
+  box-shadow: 4px 4px 8px #00000078, -4px -4px 8px #000000;
   color: white;
 }
 .btn_shadow:hover {
@@ -59,8 +59,8 @@ button {
   transform: translatey(10px);
 }
 .box_shodow {
-  background: linear-gradient(145deg, #000000, #000000);
-  box-shadow: 4px 4px 8px #5c4646, -4px -4px 8px #c5abab;
+  background: #121212;
+  box-shadow: 4px 4px 8px #000000, -4px -4px 8px #000000;
   border-radius: 10px;
 }
 .row {

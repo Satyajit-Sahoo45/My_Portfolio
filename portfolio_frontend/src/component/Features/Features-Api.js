@@ -1,15 +1,15 @@
 const data = [
   {
     id: 1,
-    image: <i className="fa-solid fa-graduation-cap"/>,
+    image: <i class="fa-sharp fa-solid fa-graduation-cap"></i>,
     title: "Under-Graduate Student",
-    desc: "Currently, I'm pursuing B.Tech at GandhiEngineering College, Bhubaneswar, Odisha. Looking for an entry-level position at a reputed organization where I can use my skill for the growth of the organization as well as learn as much as possible.",
+    desc: "My dear terrified graduates, you are about to enter the most uncertain and thrilling period of your lives. The stories you are about to live are the ones you will be telling your children, and grandchildren, and therapists.",
   },
   {
     id: 2,
     image: <i className="fa-solid fa-code"/>,
     title: "Competitive Programming",
-    desc: "Coding is like testing the level of your problem-solving skills. I participate in various contests like CodeChef, and code forces. during the contest, when  I got stuck somewhere, I do think again, apply it, and reach solutions.",
+    desc: "Most of you are familiar with the virtues of a programmer. There are three, of course: laziness, impatience, and hubris.",
   },
   {
     id: 3,

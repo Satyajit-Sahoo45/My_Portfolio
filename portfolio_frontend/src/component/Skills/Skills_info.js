@@ -4,14 +4,14 @@ const Skills_info = [
         name: "Java",
         title: "Java",
         icon: <i className="fa fa-brands fa-java"></i>,
-        percentage: 80,
+        percentage: 75,
         pathcolor: `rgba(98, 100, 233, ${80 / 100})`
     },
     {
         name: "HTML",
         title: "HTML",
         icon: <i class="fa-brands fa-html5"></i>,
-        percentage: 75,
+        percentage: 70,
         pathcolor: `rgba(169, 170, 31, 0.8)`
     },
     {
@@ -25,7 +25,7 @@ const Skills_info = [
         name: "Javascript",
         title: "Javascript",
         icon: <i class="fa-brands fa-js"></i>,
-        percentage: 75,
+        percentage: 70,
         pathcolor: `rgba(253, 255, 0, 0.8)`
     },
     {
@@ -53,7 +53,7 @@ const Skills_info = [
         name: "MongoDB",
         title: "MongoDB",
         icon: <i class="fa-solid fa-database"></i>,
-        percentage: 75,
+        percentage: 70,
         pathcolor: `rgba(55, 68, 7, 0.8)`
     },
 ]

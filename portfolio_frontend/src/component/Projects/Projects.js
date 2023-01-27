@@ -8,7 +8,7 @@ const Portfolio = () => {
     <>
       <section className='Projects top res_page' id='projects'>
         <div className='container'>
-          <div className='heading text-center '>
+          <div className='heading '>
             {/* <h4>VISIT MY PROJECTS AND KEEP YOUR FEEDBACK</h4> */}
             <h1>My Projects</h1>
           </div>

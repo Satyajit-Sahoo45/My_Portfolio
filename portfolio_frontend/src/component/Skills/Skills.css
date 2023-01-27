@@ -50,10 +50,6 @@
     }
 
     .skill_box{
-        margin: auto;
-    }
-
-    .skill_btn {
-        padding: 12px !important;
+        margin: 10px auto 10px auto;
     }
 }
