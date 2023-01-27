@@ -1,13 +1,14 @@
-import React from "react"
+import React, {useEffect} from "react"
 import "./Home.css"
-// import skill3 from "../pic/skill3.png"
 import Typewriter from 'typewriter-effect';
-// import 'aos';
 import Aos from "aos";
+import "aos/dist/aos.css"
 
 const Home = () => {
 
-  Aos.init();
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+}, [])
 
   return (
     <>
