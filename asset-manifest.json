@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.73cdfa00.css",
-    "main.js": "/My_Portfolio/static/js/main.56d801f0.js",
+    "main.css": "/My_Portfolio/static/css/main.f493620c.css",
+    "main.js": "/My_Portfolio/static/js/main.78bfd85a.js",
     "static/js/787.5184bca0.chunk.js": "/My_Portfolio/static/js/787.5184bca0.chunk.js",
     "static/media/internship.png": "/My_Portfolio/static/media/internship.8a25845cd9163db15368.png",
     "static/media/p5.png": "/My_Portfolio/static/media/p5.713cdc3298ea3522e2ba.png",
     "static/media/webTechExpo.png": "/My_Portfolio/static/media/webTechExpo.33664e7aff3bd94d5926.png",
     "static/media/webCer.png": "/My_Portfolio/static/media/webCer.a02f18a140e6a90c5784.png",
+    "static/media/homeImg.png": "/My_Portfolio/static/media/homeImg.10b3539ec85b7f8f6975.png",
     "static/media/javaCer.png": "/My_Portfolio/static/media/javaCer.dc4fa02f69854a92b707.png",
     "static/media/p4.png": "/My_Portfolio/static/media/p4.cbedd2e787e4e02290b7.png",
     "static/media/img3.png": "/My_Portfolio/static/media/img3.8b94e13749e570793f73.png",
@@ -15,12 +16,12 @@
     "static/media/p3.png": "/My_Portfolio/static/media/p3.9afa18c519e2aaeb4996.png",
     "static/media/p6.png": "/My_Portfolio/static/media/p6.975c6349a9fda317d3ef.png",
     "index.html": "/My_Portfolio/index.html",
-    "main.73cdfa00.css.map": "/My_Portfolio/static/css/main.73cdfa00.css.map",
-    "main.56d801f0.js.map": "/My_Portfolio/static/js/main.56d801f0.js.map",
+    "main.f493620c.css.map": "/My_Portfolio/static/css/main.f493620c.css.map",
+    "main.78bfd85a.js.map": "/My_Portfolio/static/js/main.78bfd85a.js.map",
     "787.5184bca0.chunk.js.map": "/My_Portfolio/static/js/787.5184bca0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73cdfa00.css",
-    "static/js/main.56d801f0.js"
+    "static/css/main.f493620c.css",
+    "static/js/main.78bfd85a.js"
   ]
 }
