@@ -17,7 +17,7 @@ const Home = () => {
         <div className='container f_flex top'>
           <div className='home_content'>
 
-            <img src={homeImg} alt="home image" />
+            <img src={homeImg} alt="home user image" />
 
             <h1>
               Hi, I’m <span>Satyajit Sahoo</span>
