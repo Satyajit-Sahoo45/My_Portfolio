@@ -6,7 +6,13 @@ const Header = () => {
   return (
     <>
       <header className='header'>
-        <div className='container d_flex'>
+        <div className='container d_flex reverse'>
+
+        <input type="checkbox" id="check" />
+          <label htmlFor="check" className="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+
           <div className='logo'>
             <h1> SS </h1>
           </div>
@@ -29,10 +35,6 @@ const Header = () => {
             </ul>
 
           </div>
-          <input type="checkbox" id="check" />
-          <label htmlFor="check" className="checkbtn">
-            <i class="fa-solid fa-bars"></i>
-          </label>
         </div>
       </header>
     </>
