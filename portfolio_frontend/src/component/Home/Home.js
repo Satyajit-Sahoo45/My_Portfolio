@@ -3,7 +3,6 @@ import "./Home.css"
 import Typewriter from 'typewriter-effect';
 import Aos from "aos";
 import "aos/dist/aos.css"
-import homeImg from "../pic/homeImg.png"
 
 const Home = () => {
 
@@ -17,8 +16,6 @@ const Home = () => {
         <div className='container f_flex top'>
           <div className='home_content'>
 
-            <img src={homeImg} alt="home user image" />
-
             <h1>
               Hi, I’m <span>Satyajit Sahoo</span>
             </h1>
@@ -26,7 +23,7 @@ const Home = () => {
               <span>
                 <Typewriter
                   options={{
-                    strings: ['a Student', ' a Web Developer', 'a Learner'],
+                    strings: [' a Web Developer', 'Looking for an opportunity'],
                     autoStart: true,
                     loop: true,
                   }}
@@ -35,7 +32,7 @@ const Home = () => {
             </h2>
 
             <p>
-              Full-Stack intern at Solar Secure Solution. I achive 5* at HackerRank and 2* at CodeChef.
+              Ex-Full-Stack intern at Solar Secure Solution. I achive 5* at HackerRank and 2* at CodeChef.
             </p>
 
             <div className='home_btn d_flex'>

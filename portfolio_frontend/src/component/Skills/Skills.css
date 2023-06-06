@@ -1,55 +1,54 @@
-/* .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-.skill_btn {
-    padding: 50px !important;
+.skill_content {
+    width: 100%;
+    padding: 18px;
+    text-align: center;
 }
 
-.skill_content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.aboutMe {
+    width: 50%;
+    height: 40vh;
+    text-align: left;
+    background-color: #1c2323;
+    padding: 12px;
+    line-height: 2;
+    border-radius: 5px;
 }
 
-.skill_grid {
+.skill {
+    padding: 12px;
+    background-color: #1c2323;
+    color: #bcbcbc;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.grid-box {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 75px;
-}
-
-.skill_btn .fa {
-    font-size: 37px;
-}
-
-.skill_box{
-    height: 10rem;
-    width: 10rem;
-    padding: 20px;
-}
-
-.Skills .box:hover i {
-    color: white;
-    opacity: 1;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
 }
 
 @media (max-width: 1024px) {
     .skill_content {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
     }
 
-    .skill_grid {
+    .aboutMe{
+        overflow: scroll;
+        width: 80%;
+    }
+
+    .grid-box {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 35px;
-        width: 100%;
+        grid-gap: 15px;
     }
 
-    .skill_box{
+
+    .skill {
         margin: 10px auto 10px auto;
     }
 }

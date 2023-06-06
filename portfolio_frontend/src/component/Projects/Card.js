@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react";
 
 const Card = (props) => {
 
@@ -11,15 +11,10 @@ const Card = (props) => {
         <div className='category d_flex'>
           <span>{props.category}</span>
         </div>
-        {/* <div className='button d_flex mtop center'>
-          <button className='btn_shadow'>
-            <a href={props.link} target="_blanck"> VIEW PROJECT  <i class='fas fa-chevron-right'></i></a>
-          </button>
-        </div> */}
 
         <div className="center d_flex">
-          <button className='glowing-btn'> <a href={props.link} target="_blanck">
-            <span className='glowing-txt'>V<span className='faulty-letter'>IEW</span> PROJECT <i class='fas fa-chevron-right'></i></span></a>
+          <button className='btn_shadow'> <a href={props.link} target="_blanck">
+            VIEW PROJECT <i class='fas fa-chevron-right '></i></a>
           </button>
         </div>
       </div>

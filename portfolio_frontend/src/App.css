@@ -15,12 +15,25 @@ body {
   max-width: 95%;
   margin: auto;
 }
+.flex_center{
+  display: flex;
+  align-items: center;
+}
 .d_flex {
   display: flex;
   justify-content: space-between;
 }
 .f_flex {
   display: flex;
+}
+.display_center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.justify_center{
+  justify-content: center;
+  flex-direction: column;
 }
 a {
   text-decoration: none;
@@ -82,6 +95,9 @@ button {
 .mtop {
   margin-top: 40px;
 }
+.mbottom{
+  margin-bottom: 20px;
+}
 .heading {
   margin: 50px 0 50px 0;
 }
@@ -103,7 +119,7 @@ h1 {
   grid-gap: 35px;
 }
 p {
-  color: #3c3e41;
+  color: #b6b9be;
 }
 .text-center {
   text-align: center;

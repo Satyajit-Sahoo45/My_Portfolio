@@ -1,38 +1,37 @@
 import React from 'react'
 import "./Skills.css";
-import Skills_info from "./Skills_info"
-import Skills_card from './Skills_card';
-
 const Skills = () => {
     return (
         <div className="skills top res_page " id="skills">
             <div className="container">
                 <div className='heading'>
-                    <h1>Skills</h1>
+                    <h1>Personal Info</h1>
+                    <p className='primary_color'> Get To Know More About Me</p>
                 </div>
 
-                <div className="skill_content">
-                    <div className="box_s skill_grid">
-
-                        {Skills_info.map((value, index) => {
-                            return <Skills_card
-                                name={value.name}
-                                title={value.item}
-                                icon={value.icon}
-                                percentage={value.percentage}
-                                pathcolor={value.pathcolor}
-                            />
-                        })}
-
-                        {/* <div className="skill_box">
-                            <button className='btn_shadow skill_btn' title="mongoDB">
-                                <img src={mongo} alt='skill' />
-                            </button>
-                        </div> */}
+                <div className="skill_content flex_center">
+                    <div className="aboutMe display_center">
+                        <span className='primary_color'> Hello, </span>
+                        <p> My name is is Satyajit Sahoo and I'm a passionate Web Developer using web technologies to build amazing products and focusing on solving problems to enhancing my skills using the power of technology.</p>
+                        <p> I will love to hear from you about job opportunity.</p>
+                    </div>
+                    <div>
+                        <div className='text-center skill mbottom primary_color'>Skills</div>
+                        <div className="grid-box">
+                            <p className='skill'> Java </p>
+                            <p className='skill'> JavaScript </p>
+                            <p className='skill'> React.js </p>
+                            <p className='skill'> Node.js </p>
+                            <p className='skill'> Express.js </p>
+                            <p className='skill'> MongoDB </p>
+                            <p className='skill'> HTML </p>
+                            <p className='skill'> CSS </p>
+                            <p className='skill'> GIT </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 export default Skills;
