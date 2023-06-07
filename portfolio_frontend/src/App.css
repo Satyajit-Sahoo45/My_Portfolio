@@ -150,7 +150,7 @@ input {
 
   .res_page{
     width: 95%;
-    margin: auto;
+    /* margin: auto; */
   }
 
   .d_flex{
