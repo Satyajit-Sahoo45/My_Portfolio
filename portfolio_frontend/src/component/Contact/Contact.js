@@ -47,30 +47,30 @@ const Contact = () => {
             <h1>Contact With Me</h1>
           </div>
 
-          <div className='content d_flex'>
+          <div className='d_flex'>
             <div className='contact_box box_shodow'>
               <form onSubmit={formSubmit}>
                 <div className='f_flex'>
-                  <div className='input row'>
+                  <div className='row '>
                     <span>YOUR NAME</span>
-                    <input type='text' name='name' value={data.name} autoComplete="off" onChange={InputEvent} />
+                    <input type='text' className="btn_shadow border_none" name='name' value={data.name} autoComplete="off" onChange={InputEvent} />
                   </div>
-                  <div className='input row'>
+                  <div className='row'>
                     <span>PHONE NUMBER </span>
-                    <input type='number' name='contact' value={data.contact} onChange={InputEvent} />
+                    <input type='number' className="btn_shadow border_none" name='contact' value={data.contact} onChange={InputEvent} />
                   </div>
                 </div>
-                <div className='input'>
+                <div>
                   <span>EMAIL </span>
-                  <input type='email' name='email' value={data.email} autoComplete="off" onChange={InputEvent} />
+                  <input type='email' className="btn_shadow border_none" name='email' value={data.email} autoComplete="off" onChange={InputEvent} />
                 </div>
-                <div className='input'>
+                <div>
                   <span>SUBJECT </span>
-                  <input type='text' name='subject' value={data.subject} autoComplete="off" onChange={InputEvent} />
+                  <input type='text' className="btn_shadow border_none" name='subject' value={data.subject} autoComplete="off" onChange={InputEvent} />
                 </div>
-                <div className='input'>
+                <div>
                   <span>YOUR MESSAGE </span>
-                  <textarea cols='30' rows='10' name='message' value={data.message} autoComplete="off" onChange={InputEvent}></textarea>
+                  <textarea className="btn_shadow border_none" cols='30' rows='10' name='message' value={data.message} autoComplete="off" onChange={InputEvent}></textarea>
                 </div>
                 <div className="snd_btn">
                   <button className='btn_shadow send_btn'>

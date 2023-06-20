@@ -1,32 +1,15 @@
 .skill_content {
     width: 100%;
-    padding: 18px;
-    text-align: center;
 }
 
 .aboutMe {
     width: 50%;
-    height: 40vh;
-    text-align: left;
-    background-color: #1c2323;
-    padding: 12px;
-    line-height: 2;
-    border-radius: 5px;
 }
 
-.skill {
-    padding: 12px;
-    background-color: #1c2323;
-    color: #bcbcbc;
-    border-radius: 5px;
-    margin-left: 30px;
+.skill_container {
+    width: 50%;
 }
 
-.grid-box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 35px;
-}
 
 @media (max-width: 1024px) {
     .skill_content {
@@ -36,17 +19,15 @@
         align-items: center;
     }
 
-    .aboutMe{
+    .skill_container {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .aboutMe {
         overflow: scroll;
         width: 80%;
     }
-
-    .grid-box {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 15px;
-    }
-
 
     .skill {
         margin: 10px auto 10px auto;

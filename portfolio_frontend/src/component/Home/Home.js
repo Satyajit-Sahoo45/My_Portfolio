@@ -12,8 +12,8 @@ const Home = () => {
 
   return (
     <>
-      <section data-aos="flip-up" className='home res_page' id='home'>
-        <div className='container f_flex top'>
+      <section data-aos="flip-up" className='container home res_page' id='home'>
+        <div className='f_flex top'>
           <div className='home_content'>
 
             <h1>
@@ -38,7 +38,7 @@ const Home = () => {
             <div className='home_btn d_flex'>
               <div className='col_1'>
                 <h4>CONNECT WITH ME</h4>
-                <div className='button f_flex'>
+                <div className='button skill_grid f_flex'>
                   <a href="https://twitter.com/Satyaji33351978" target="_blanck">
                     <button className='btn_shadow'>
                       <i className='fab fa-twitter'></i>
@@ -63,30 +63,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-          {/* <div className='right'> */}
-          {/* <div className='right_item'>
-              <div className='col_1'>
-                <h4>CONNECT WITH ME</h4>
-                <div className='button f_flex'>
-                  <a href="https://twitter.com/Satyaji33351978" target="_blanck">
-                    <button className='btn_shadow'>
-                      <i class='fab fa-twitter'></i>
-                    </button>
-                  </a>
-                  <a href="https://www.instagram.com/satyajitsipun45/" target="_blanck">
-                    <button className='btn_shadow'>
-                      <i class='fab fa-instagram'></i>
-                    </button>
-                  </a>
-                  <a href="https://www.linkedin.com/in/satyajit-sahoo-28052001/" target="_blanck">
-                    <button className='btn_shadow'>
-                      <i class='fab fa-linkedin-in'></i>
-                    </button>
-                  </a> */}
-          {/* </div> */}
-          {/* </div> */}
-          {/* </div> */}
-          {/* </div> */}
         </div>
       </section>
     </>
